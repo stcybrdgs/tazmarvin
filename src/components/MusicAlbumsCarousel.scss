@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+.slider-container {
+  .slick-next {
+    right: 44px;
+    top: 45%;
+    z-index: 999;
+  }
+
+  .slick-prev {
+    left: 5px;
+    top: 45%;
+    z-index: 999;
+  }
+
+  .slick-next:hover,
+  .slick-prev:hover {
+    cursor: pointer;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 60px;
+  }
+
+  .album-container {
+    height: 250px;
+
+    .album {
+      position: relative;
+      height: 100%;
+
+      .album-title {
+        position: absolute;
+        left: 0;
+        right: 0;
+      }
+    }
+  }
+}
+

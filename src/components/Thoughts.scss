@@ -1,0 +1,30 @@
+.thoughts-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+
+  .next-arrow {
+    padding: 20px;
+    font-size: 2em;
+  }
+
+  .thoughts-content {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    margin: 0px 10px;
+
+    .thoughts-image {
+      //height: 200px;
+      width: 20%;
+    }
+
+    .thought-body {
+      width: 80%;
+      border: 1px solid white;
+    }
+  }
+}
+

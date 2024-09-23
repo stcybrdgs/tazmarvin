@@ -1,0 +1,76 @@
+.slider-container {
+  .slick-next {
+    right: 44px;
+    top: -20%;
+    z-index: 999;
+  }
+
+  .slick-prev {
+    left: 5px;
+    top: -20%;
+    z-index: 999;
+  }
+
+  .slick-next:hover,
+  .slick-prev:hover {
+    cursor: pointer;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 60px;
+    color: rgb(225, 205, 134);
+  }
+
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    padding-top: 60px;
+    //padding: 1rem 0;
+    position: relative;
+    top: -50px;
+
+    list-style-type: none;
+
+    li {
+      margin: 0 0.35rem;
+    }
+
+    button {
+      display: block;
+      // dot size
+      width: 0.8rem;
+      height: 0.8rem;
+      padding: 0;
+
+      border: none;
+      border-radius: 100%;
+      background-color: rgb(75, 66, 33);
+
+      text-indent: -9999px;
+    }
+
+    li.slick-active button {
+      background-color: rgb(225, 205, 134);
+    }
+  }
+
+  .merch-container {
+    height: 250px;
+    //background: orange;
+
+    .merch-item {
+      position: relative;
+      height: 100%;
+
+      .merch-item-title {
+        position: absolute;
+        left: 0;
+        right: 0;
+      }
+    }
+  }
+}
+

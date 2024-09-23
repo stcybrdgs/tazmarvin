@@ -1,0 +1,107 @@
+/* Player Container */
+.player-container {
+  border: 1px solid orange;
+  height: 560px;
+  width: 400px;
+  padding: 10px;
+  //margin-top: 40px;
+  border-radius: 15px;
+  //background-color: rgb(234, 231, 231);
+  //box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3); /* h v blur spread */
+  text-align: center;
+}
+
+/* Image */
+.img-container {
+  display: inline-block;
+  position: relative;
+  //top: -40px;
+  height: 280px;
+  width: 280px;
+  border-radius: 15px;
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.3); /* h v blur spread */
+}
+
+.img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Dashboard */
+.dashboard {
+  position: relative;
+  top: 0px;
+}
+
+/* Progress */
+.progress-container {
+  //position: relative;
+  //top: -20px;
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 44px 0px;
+  height: 6px;
+  width: 100%;
+}
+
+.progress {
+  background: rgb(118, 189, 102);
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+
+.duration-wrapper {
+  position: relative;
+  top: -34px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Controls */
+audio {
+  display: none;
+}
+
+.player-controls {
+  position: relative;
+  top: -24px;
+  display: flex;
+  justify-content: center;
+}
+
+.player-controls .fas {
+  font-size: 2em;
+  color: rgb(129, 129, 129);
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa-repeat {
+  position: absolute;
+  right: 8px;
+  top: 6px;
+  font-size: 1.6em;
+  color: #696969;
+}
+
+.fa-shuffle {
+  position: absolute;
+  left: 8px;
+  top: 6px;
+  font-size: 1.6em;
+  color: #696969;
+}
+
+.fas:hover {
+  filter: brightness(70%);
+}
+
+#play {
+  margin: 0px 20px;
+}
+
